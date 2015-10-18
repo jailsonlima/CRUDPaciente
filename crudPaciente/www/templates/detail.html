@@ -1,0 +1,22 @@
+<ion-header-bar class="bar-positive">
+  <h2 class="title">Informações Adicionais</h2>
+</ion-header-bar>
+
+<ion-view>
+  <ion-content>
+    <ion-list class="list-inset">
+      <ion-item class="item-text-wrap"
+        ng-repeat="item in pacientes | filter: { idPessoa: qualpacientes }">          
+          <h3>{{ item.nomePessoa }}</h3>
+          <p>Sexo: {{item.sexo}}</p>
+          <p>Endereço: {{item.endereco}}</p>
+          <p>Número: {{item.numero}}</p>
+          <p>Cidade: {{item.cidade}}</p>
+          <p>CEP: {{item.cep}}</p>
+          <p>Bairro: {{item.bairro}}</p>
+          <p>Estado: {{item.estado}}</p>      
+          <p>{{ item.telefone }}</p>          
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

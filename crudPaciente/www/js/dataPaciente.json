@@ -1,0 +1,27 @@
+{
+  "paciente": [
+    {"bairro":"Jardim Aeroporto",
+	 "cep":"19814-100",
+	 "cidade":"Assis",
+	 "email":"jailsoncamargo@gmail.com",
+	 "endereco":"Rua: Dr Antonio S. Figueiredo",
+	 "estado":"SP",
+	 "idPessoa":1,
+	 "nomePessoa":"Jailson Camargo de Lima",
+	 "numero":"215",
+	 "sexo":"M",
+	 "telefone":"(18)3321-1641"},
+	 {"bairro":"San Fernando Valley",
+	  "cep":"19800-390",
+	  "cidade":"Assis",
+	  "email":"junior.bsilva7@gmail.com",
+	  "endereco":"Rua: Valdemar Francisco Pinto",
+	  "estado":"SP",
+	  "idPessoa":2,
+	  "nomePessoa":"Junior Bezerra da Silva",
+	  "numero":"119",
+	  "sexo":"M",
+	  "telefone":"(18)3321-1138"
+	  }
+	]
+}
